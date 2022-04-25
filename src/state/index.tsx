@@ -74,7 +74,6 @@ export default function AppStateProvider(props: React.PropsWithChildren<{}>) {
           headers: {
             'content-type': 'application/json',
           },
-          mode: 'no-cors',
           body: JSON.stringify({
             user_identity,
             room_name,
